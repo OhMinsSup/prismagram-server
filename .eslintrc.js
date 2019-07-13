@@ -10,10 +10,13 @@ module.exports = {
   plugins: ['import', 'html'],
   rules: {
     'linebreak-style': 'off',
+    'object-curly-newline': 'off',
+    quotes: 'off',
     // 0 "off", 1 "warn" 2 "error"
     'import/newline-after-import': 'off',
     'no-console': 'off',
-    quotes: ['error', 'single'],
+    indent: 'off',
+    'import/prefer-default-export': 'off',
     'no-underscore-dangle': 'warn',
     'no-plusplus': ['error', { allowForLoopAfterthoughts: true }],
     'comma-dangle': ['error', 'never']
