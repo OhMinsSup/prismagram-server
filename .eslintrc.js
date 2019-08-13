@@ -20,6 +20,7 @@ module.exports = {
     'no-else-return': 'off',
     'arrow-parens': 'off',
     'no-unreachable': 'off',
+    'no-unused-vars': 'off',
     'import/order': 'off',
     'import/no-duplicates': 'off',
     'implicit-arrow-linebreak': 'off',
